@@ -15,7 +15,7 @@ $ pip install -r requirements.txt
 Run the tests using pytest:
 
 ```
-$ py.test
+$ py.test <folder>
 ```
 
 ## Running Tests in Ruby
@@ -29,7 +29,7 @@ $ bundle install
 Run the tests using rspec:
 
 ```
-$ bundle exec rspec *_spec.rb
+$ bundle exec rspec <folder>/*_spec.rb
 ```
 
 ## Running Tests in PHP
@@ -43,5 +43,5 @@ $ composer install
 Run the tests using PHPUnit:
 
 ```
-$ vendor/bin/phpunit --colors *Test.php
+$ vendor/bin/phpunit --colors <folder>/*Test.php
 ```
